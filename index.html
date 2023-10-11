@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GO IT HW 2</title>
+    <title>GO IT HW 3</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,71 +12,69 @@
     <link rel="stylesheet" href="css/styles.css" />
 
 </head>
-<body>
-    <header>
-        <a class="header-logo" href="/"><span>WEB</span>STUDIO</a>
+<body class="container">
+    <header class="header">
+        <div class="logo-navlink">
+            <a class="header-logo" href="/"><span>WEB</span>STUDIO</a>
             <nav>
-                <ul>
+                <ul class="nav-display">
                     <li><a class="nav-link" href="./studio.html">Studio</a></li>
                     <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
                     <li><a class="nav-link" href="/Contacts">Contacts</a></li>
                 </ul>
             </nav>
+            </div>
             
-                <ul class="contact-info">
+                <ul class="contact-info nav-display">
                     <li><a class="contact-info" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li><a class="contact-info" href="tel:+11 (000) 111-11-11">+11 (000) 111-11-11</a></li>
                 </ul>
     </header>
 
     <main>
-        <section>
+        <section class="section">
             <h1>Effective Solutions <br> for Your Business</h1>
 
             <button type="button" class="order-service">Order Service</button>
         </section>
         <ul class="values">
-            <li><h3>Strategy</h3></li>
-            <div>Our goal is to identify the business problem to walk away with the perfect and creative solution.</div>
-            <li><h3>Punctuality</h3></li>
-            <div>Bring the key message to the brand's audience for the best price within the shortest possible time.</div>
-            <li><h3>Diligence</h3></li>
-            <div>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</div>
-            <li><h3>Technologies</h3></li>
-            <div>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</div>
+            <li><h3>Strategy</h3>
+            <div>Our goal is to identify the business problem to walk away with the perfect and creative solution.</div></li>
+            <li><h3>Punctuality</h3>
+            <div>Bring the key message to the brand's audience for the best price within the shortest possible time.</div></li>
+            <li><h3>Diligence</h3>
+            <div>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</div></li>
+            <li><h3>Technologies</h3>
+            <div>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</div></li>
         </ul>
 
-        <h2>What are we doing</h2>
+        <h2 class="what-are-we-doing">What are we doing </h2>
 
-        <ul class="what-we-do">
+        <ul class="what-we-do list-images">
             <li>
-                <img 
+                <img class="what-we-do-images"
                 src="images/computer_monitor.jpg" 
-                alt="Computer Monitor" 
-                width="400"/>
+                alt="Computer Monitor" />
             </li>
             <li>
-                <img 
+                <img class="what-we-do-images"
                 src="images/smartphone_screen_layers.jpg" 
-                alt="Smartphone Screen Layers" 
-                width="400"/>
+                alt="Smartphone Screen Layers" />
             </li>
             <li>
-                <img 
+                <img class="what-we-do-images"
                 src="images/smartphone_in_hand.jpg" 
-                alt="Smartphone in hand" 
-                width="400"/>
+                alt="Smartphone in hand" />
             </li>
         </ul>
 
-        <h2>Our Team</h2>
+        <h2 class="our-team">Our Team</h2>
 
-        <ul class="team-members">
+        <ul class="team-members list-images b-margin">
             <li>
-                <img 
+                <img class="team"
                 src="images/mark_guerrero.jpg" 
-                alt="Mark Guerrero" 
-                width="400"/>
+                alt="Mark Guerrero" />
                 <figcaption>
                     <h3>Mark Guerrero</h3> 
                     <div>Product Designer</div>
@@ -84,10 +82,9 @@
                 <br>
             </li>
             <li>
-                <img 
+                <img class="team"
                 src="images/tom_ford.jpg" 
-                alt="Tom Ford" 
-                width="400"/>
+                alt="Tom Ford" />
                 <figcaption>
                     <h3>Tom Ford</h3>
                     <div>Frontend Developer</div>
@@ -95,10 +92,9 @@
                 <br>
             </li>
             <li>
-                <img 
+                <img class="team"
                 src="images/camila_garcia.jpg" 
-                alt="Camila Garcia" 
-                width="400"/>
+                alt="Camila Garcia" />
                 <figcaption>
                     <h3>Camila Garcia</h3>
                     <div>Marketing</div>
@@ -106,10 +102,9 @@
                 <br>
             </li>
             <li>
-                <img 
+                <img class="team"
                 src="images/daniel_wilson.jpg" 
-                alt="Daniel Wilson" 
-                width="400"/>
+                alt="Daniel Wilson" />
                 <figcaption>
                     <h3>Daniel Wilson</h3>
                     <div>UI Designer</div>
@@ -119,10 +114,12 @@
         </ul>
     </main>
     <footer>
+        <div class="footer-content">
          <a class="footer-logo" href="/"><span>WEB</span>STUDIO</a>
         <p>
             Increase the flow of customers and <br> sales for your business with digital <br> marketing & growth solutions.
         </p>
+        </div>
     </footer>
 </body>
 </html>

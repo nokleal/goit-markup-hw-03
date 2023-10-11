@@ -1,3 +1,9 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
 :root {
     --iris: #4D5AE5;
     --navy-blue: #2E2F42;
@@ -5,6 +11,10 @@
     --white: #FFF;
     --cloud: #F4F4FD;
 
+}
+
+.container {
+    width: 1158px;
 }
 
 body {
@@ -35,6 +45,23 @@ header {
     letter-spacing: 0.32px;
 }
 
+.nav-display {
+    display: flex;
+    gap: 40px;
+}
+
+.logo-navlink {
+    display: flex;
+    gap: 76px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .nav-link:hover, .nav-link:focus {
     color: var(--iris);
 }
@@ -51,7 +78,8 @@ header {
 section {
     background-color: var(--navy-blue);
     color: var(--white);
-    
+    padding: 120px 0;
+    text-align: center;
 }
 
 h1 {
@@ -75,12 +103,13 @@ h2 {
     background-color: var(--iris);
     color: var(--white);
     border-radius: 4px;
+    padding: 16px 32px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .order-service:hover, .order-service:focus{
     color: var(--iris);
     background-color: var(--white);
-
 }
 
 h3 {
@@ -88,6 +117,36 @@ h3 {
     font-weight: 500;
     line-height: 24px; 
     letter-spacing: 0.4px;
+}
+
+.values, .what-we-do, .team-members {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.values, .what-are-we-doing {
+    margin-top: 120px;
+}
+
+.our-team {
+    margin-top: 240px;
+}
+
+.list-images {
+    margin-top: 72px;
+}
+
+.b-margin {
+    margin-bottom: 120px;
+}
+
+.team {
+    width: 264px;
+}
+
+.what-we-do-images {
+    width: 360px;
 }
 
 div {
@@ -106,7 +165,8 @@ a {
 
 footer {
     background-color: var(--navy-blue);
-    color: var(--cloud)
+    color: var(--cloud);
+    height: 312px;
 }
 
 a.footer-logo {
@@ -116,4 +176,11 @@ a.footer-logo {
     line-height: 21px;
     letter-spacing: 0.54px;
 }
+
+.footer-content {
+    padding-top: 101.5px;
+    padding-left: 156px;
+    color: var(--cloud);
+}
+
 
